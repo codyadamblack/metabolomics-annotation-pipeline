@@ -4,7 +4,7 @@ A reproducible, end-to-end workflow for annotating untargeted LC–MS features a
 
 ---
 
-## 📦 Project Overview
+## Project Overview
 
 1. **Initial Monoisotopic Matching**  
    — Load your significant features (`sig_met_list.txt`, containing `mode`, `metabolite`, `MW`, `m/z`, `RT`)  
@@ -26,7 +26,7 @@ A reproducible, end-to-end workflow for annotating untargeted LC–MS features a
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # 1) Clone this repo
