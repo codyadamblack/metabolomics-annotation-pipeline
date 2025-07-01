@@ -17,7 +17,7 @@ A reproducible, end-to-end workflow for annotating untargeted LC–MS features a
    — Negative (ESI⁻): `[M–H]-`, `[M+HCOO]-`, `[M+CH3COO]-`, `[M+Cl]-`, `[2M–H]-`
    — Collate rescued candidates into `sig_met_candidates_full_adducts.csv`
 
-3. **Feature Scoring & RT-Prediction**  
+4. **Feature Scoring & RT-Prediction**  
    — Compute mass‐error and parse HMDB chemical properties (log P, PSA, H-bonds, rotatable bonds, class, 3D‐shape descriptors via RDKit)  
    — Train RF & XGBoost on **manually confirmed** annotations (and singletons) to predict RT  
    — Score every candidate by mass‐error, adduct likelihood, and RT Gaussian likelihood  
