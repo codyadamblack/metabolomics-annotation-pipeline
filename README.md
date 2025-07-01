@@ -13,8 +13,8 @@ A reproducible, end-to-end workflow for annotating untargeted LC–MS features a
 
 2. **Adduct-Augmented Rescue**  
    — For every feature’s **observed** m/z window (±5 ppm), compute theoretical m/z for an expanded set of adducts & dimers  
-   — Positive (ESI⁺): `[M+H]+`, `[M+Na]+`, `[M+K]+`, `[M+NH4]+`, `[M+Li]+`, `[M+Cs]+`, `[2M+H]+`, `[2M+Na]+`  
-   — Negative (ESI⁻): `[M–H]-`, `[M+HCOO]-`, `[M+Cl]-`, `[2M–H]-`  
+   — Positive (ESI⁺): `[M+H]+`, `[M+Na]+`, `[M+K]+`, `[M+NH4]+`,  `[M+ACN+H]+`, `[M+ACN+Na]+`, `[M+ACN+K]+`, `[M+H2O+H]+`
+   — Negative (ESI⁻): `[M–H]-`, `[M+HCOO]-`, `[M+CH3COO]-`, `[M+Cl]-`, `[2M–H]-`
    — Collate rescued candidates into `sig_met_candidates_full_adducts.csv`
 
 3. **Feature Scoring & RT-Prediction**  
